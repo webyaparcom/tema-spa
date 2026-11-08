@@ -1,0 +1,40 @@
+{
+  "id": "q2ar14bjhn",
+  "name": {
+    "tr": "Hizmetlerimiz",
+    "en": "Our services",
+    "ar": "خدماتنا"
+  },
+  "description": {
+    "tr": "Hamamdan masaja, tek çatı altında altı bakım.",
+    "en": "Six treatments under one roof, from hammam to massage.",
+    "ar": "ست خدمات تحت سقف واحد، من الحمّام إلى التدليك."
+  },
+  "keyword": {
+    "tr": "Bakım menüsü",
+    "en": "Treatment menu",
+    "ar": "قائمة الخدمات"
+  },
+  "path": "hizmetler",
+  "icon": "work",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "sz84hl",
+      "256qkt"
+    ],
+    "footer": []
+  },
+  "index": 0,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Hizmetlerimiz",
+    "en": "Our services",
+    "ar": "خدماتنا"
+  },
+  "date": "2026-11-05T18:58:41.348Z",
+  "update": "2026-11-06T00:01:16.329Z"
+}
