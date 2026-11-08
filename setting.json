@@ -1,0 +1,54 @@
+{
+  "order": false,
+  "user": false,
+  "description": {
+    "tr": "Kayrak Spa: geleneksel hamam, masaj ve yüz bakımı; görseller temsilîdir.",
+    "en": "Kayrak Spa: traditional hammam, massage and facial care; images are representative.",
+    "ar": "كايراك سبا: حمّام تقليدي وتدليك وعناية بالوجه؛ الصور تمثيلية."
+  },
+  "keyword": {
+    "tr": "spa, masaj, hamam, yüz bakımı",
+    "en": "spa, massage, hammam, facial care",
+    "ar": "سبا، تدليك، حمّام، عناية بالوجه"
+  },
+  "category": "Kurumsal",
+  "name": "Kayrak Spa",
+  "domain": "spa.webyapar.com",
+  "langs": {
+    "tr": true,
+    "en": true,
+    "ar": true,
+    "de": false,
+    "ru": false,
+    "es": false,
+    "fr": false,
+    "it": false,
+    "ja": false,
+    "zh": false,
+    "ko": false,
+    "pt": false
+  },
+  "logo": "logo.png",
+  "multi": false,
+  "publishMode": "static",
+  "font": {
+    "body": "lora",
+    "heading": "cormorant-garamond",
+    "ar": {
+      "body": "ibm-plex-sans-arabic",
+      "heading": "noto-kufi-arabic"
+    }
+  },
+  "colorScheme": "auto",
+  "theme_color": "#876A93",
+  "seo": {
+    "noindex": true
+  },
+  "cssTokens": {
+    "--mx-radius-sm": "12px",
+    "--mx-radius-md": "20px",
+    "--mx-radius-lg": "28px",
+    "--mx-radius-xl": "999px"
+  },
+  "icon": "icon.png"
+}
