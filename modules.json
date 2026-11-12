@@ -30,6 +30,12 @@
           "tr": "(yeni sekmede açılır)",
           "en": "(opens in a new tab)",
           "ar": "(يفتح في علامة تبويب جديدة)"
+        },
+        "girisHref": "",
+        "girisText": {
+          "tr": "Üye Girişi",
+          "en": "Login",
+          "ar": "تسجيل الدخول"
         }
       },
       "version": "1.0.0",
@@ -766,7 +772,12 @@
         "social_media": false,
         "logo_maxh": "60px",
         "logo_plate": false,
-        "contact_line": "auto"
+        "contact_line": "auto",
+        "logoDark": "",
+        "duzen": "",
+        "slogan": "",
+        "ikinciSutun": "",
+        "iletisimNot": ""
       },
       "version": "1.0.0",
       "icon": "widgets",
@@ -1478,9 +1489,9 @@
         "accentText": "var(--mx-site-primary-contrast, #ffffff)",
         "border": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 14%, transparent)",
         "cta": {
-          "tr": "Teklif al",
-          "en": "Get a quote",
-          "ar": "اطلب عرض سعر"
+          "tr": "Randevu al",
+          "en": "Book now",
+          "ar": "احجز موعدًا"
         },
         "cta_url": "teklif-al"
       },
@@ -1601,9 +1612,9 @@
         "radius": "16px",
         "sure": 1000,
         "title": {
-          "tr": "Neler sunuyoruz?",
-          "en": "What we offer",
-          "ar": "ماذا نقدّم؟"
+          "tr": "Rakamlarla Kayrak Spa",
+          "en": "Kayrak Spa in numbers",
+          "ar": "Kayrak Spa بالأرقام"
         },
         "description": {
           "tr": "Kurgusal demo verileri.",
@@ -1814,19 +1825,19 @@
         "accent": "var(--mx-site-primary, #2563eb)",
         "linecolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
         "badge": {
-          "tr": "Nasıl çalışırız?",
-          "en": "How we work",
-          "ar": "كيف نعمل؟"
+          "tr": "Seans akışı",
+          "en": "Session flow",
+          "ar": "مسار الجلسة"
         },
         "title": {
-          "tr": "Dört adımda süreç",
-          "en": "Process in four steps",
-          "ar": "العملية في أربع خطوات"
+          "tr": "Randevudan dinlenmeye",
+          "en": "From booking to rest",
+          "ar": "من الحجز إلى الاسترخاء"
         },
         "description": {
-          "tr": "İlk görüşmeden teslimata aynı akış.",
-          "en": "The same flow, from first meeting to handover.",
-          "ar": "نفس التيار من أول لقاء إلى التسليم."
+          "tr": "Ön görüşmeden bitki çayına dört adım.",
+          "en": "Four steps, from the first chat to herbal tea.",
+          "ar": "أربع خطوات من الحديث الأول إلى شاي الأعشاب."
         },
         "accentText": "#ffffff",
         "cardbg": "var(--mx-site-surface, #ffffff)",
@@ -1911,9 +1922,9 @@
         "textcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
         "accent": "var(--mx-site-primary, #2563eb)",
         "badge": {
-          "tr": "Ekibimiz",
-          "en": "Our team",
-          "ar": "فريقنا"
+          "tr": "Terapistlerimiz",
+          "en": "Our therapists",
+          "ar": "معالجونا"
         },
         "title": {
           "tr": "Sizi karşılayan ekip",
@@ -1998,14 +2009,14 @@
         "accent": "var(--mx-site-primary, #2563eb)",
         "starcolor": "#f59e0b",
         "badge": {
-          "tr": "Müşteri yorumları",
-          "en": "Customer reviews",
-          "ar": "تقييمات العملاء"
+          "tr": "Misafir yorumları",
+          "en": "Guest reviews",
+          "ar": "آراء الضيوف"
         },
         "title": {
-          "tr": "Müşterilerimiz ne diyor?",
-          "en": "What our customers say",
-          "ar": "ماذا يقول عملاؤنا؟"
+          "tr": "Misafirlerimiz ne diyor?",
+          "en": "What our guests say",
+          "ar": "ماذا يقول ضيوفنا؟"
         },
         "description": {
           "tr": "Kurgusal demo yorumlar.",
@@ -2103,9 +2114,9 @@
         "radius": "20px",
         "numara": true,
         "eyebrow": {
-          "tr": "Neyi iyi yaparız?",
-          "en": "What we do well",
-          "ar": "ما نتقنه؟"
+          "tr": "Bakım odalarında",
+          "en": "Inside the treatment rooms",
+          "ar": "داخل غرف العناية"
         },
         "title": {
           "tr": "Neler sunuyoruz?",
@@ -2113,7 +2124,7 @@
           "ar": "ماذا نقدّم؟"
         },
         "description": {
-          "tr": "Görseller temsilidir; bu bir kurulum demosıdır.",
+          "tr": "Görseller temsilidir; bu bir kurulum demosudur.",
           "en": "Images are representative; this is a setup demo.",
           "ar": "الصور تمثيلية وهذا عرض تجريبي."
         },
@@ -2229,9 +2240,9 @@
         "radius": "20px",
         "showTitle": true,
         "title": {
-          "tr": "Birlikte çalıştığımız kuruluşlar",
+          "tr": "İş birliği yaptığımız kuruluşlar",
           "en": "Organisations we work with",
-          "ar": "جهات نعمل معها"
+          "ar": "جهات نتعاون معها"
         },
         "description": {
           "tr": "Kurgusal iş ortağı adları; gerçek bir kuruluşa ait değildir.",
@@ -2249,19 +2260,19 @@
           "name": "Demo Otel"
         },
         {
-          "name": "Demo Termal"
+          "name": "Demo Termal Tesis"
         },
         {
           "name": "Demo Kozmetik"
         },
         {
-          "name": "Demo Havlu"
+          "name": "Demo Bitki Çayı"
         },
         {
-          "name": "Demo Çay Evi"
+          "name": "Demo Havlu Atölyesi"
         },
         {
-          "name": "Demo Spor Kulübü"
+          "name": "Demo Yoga Stüdyosu"
         }
       ],
       "veri": {
@@ -2304,6 +2315,16 @@
       },
       "data": [
         {
+          "question": {
+            "tr": "Seansa ne getirmeliyim?",
+            "en": "What should I bring to my session?",
+            "ar": "ماذا أحضر إلى الجلسة؟"
+          },
+          "answer": {
+            "tr": "Havlu, bornoz ve terlik tarafımızdan verilir; yalnızca kişisel eşyalarınızı getirmeniz yeterlidir.",
+            "en": "Towels, a robe and slippers are provided; you only need to bring your personal items.",
+            "ar": "نوفّر المناشف والرداء والخُفّ؛ يكفي أن تُحضر أغراضك الشخصية."
+          },
           "soru": {
             "tr": "Seansa ne getirmeliyim?",
             "en": "What should I bring to my session?",
@@ -2316,6 +2337,16 @@
           }
         },
         {
+          "question": {
+            "tr": "Sağlık durumum masaja ya da hamama uygun mu?",
+            "en": "Is massage or the hammam suitable for my health?",
+            "ar": "هل التدليك أو الحمّام مناسب لحالتي الصحية؟"
+          },
+          "answer": {
+            "tr": "Hamilelik, kronik bir rahatsızlık ya da yakın zamanda geçirilmiş bir ameliyat varsa seanstan önce hekiminize danışın. Spa hizmetleri dinlenme amaçlıdır; tıbbi tedavi yerine geçmez.",
+            "en": "If you are pregnant, have a chronic condition or recently had surgery, please consult your doctor before the session. Spa services are for relaxation and are not a substitute for medical treatment.",
+            "ar": "إذا كنتِ حاملًا أو لديك حالة مزمنة أو أجريت عملية جراحية مؤخرًا فاستشر طبيبك قبل الجلسة. خدمات السبا للاسترخاء ولا تُغني عن العلاج الطبي."
+          },
           "soru": {
             "tr": "Sağlık durumum masaja ya da hamama uygun mu?",
             "en": "Is massage or the hammam suitable for my health?",
@@ -2328,6 +2359,16 @@
           }
         },
         {
+          "question": {
+            "tr": "Sitedeki görseller ve veriler gerçek midir?",
+            "en": "Are the images and data on the site real?",
+            "ar": "هل الصور والبيانات في الموقع حقيقية؟"
+          },
+          "answer": {
+            "tr": "Hayır; bu bir kurulum örneğidir. Görseller temsilî; adlar, rakamlar ve kişiler kurgusaldır.",
+            "en": "No; this is a setup example. Images are representative and names, figures and people are fictional.",
+            "ar": "لا؛ هذا مثال تركيب. الصور تمثيلية والأسماء والأرقام والشخصيات افتراضية."
+          },
           "soru": {
             "tr": "Sitedeki görseller ve veriler gerçek midir?",
             "en": "Are the images and data on the site real?",
@@ -2340,6 +2381,16 @@
           }
         },
         {
+          "question": {
+            "tr": "Fiyatları nasıl öğrenirim?",
+            "en": "How do I find out the prices?",
+            "ar": "كيف أعرف الأسعار؟"
+          },
+          "answer": {
+            "tr": "Seans türü ve süresine göre randevu sırasında yazılı olarak bildirilir; bu demo metninde fiyat yer almaz.",
+            "en": "Prices depend on the treatment and its length and are confirmed in writing when you book; this demo text shows no prices.",
+            "ar": "تُحدَّد الأسعار حسب نوع الجلسة ومدتها وتُبلَّغ كتابيًا عند الحجز؛ ولا يتضمن هذا النص التجريبي أسعارًا."
+          },
           "soru": {
             "tr": "Fiyatları nasıl öğrenirim?",
             "en": "How do I find out the prices?",
@@ -2406,9 +2457,9 @@
         "errcolor": "var(--mx-color-danger, #b42318)",
         "radius": "20px",
         "title": {
-          "tr": "Teklif isteyin",
-          "en": "Request a quote",
-          "ar": "اطلب عرض سعر"
+          "tr": "Randevu isteyin",
+          "en": "Request a booking",
+          "ar": "اطلب حجزًا"
         },
         "description": {
           "tr": "Bilgilerinizi bırakın; en geç iki iş günü içinde dönüş yaparız. Bu form demodur; e-posta istemciniz açılır, veri saklanmaz.",
@@ -2421,7 +2472,7 @@
           "ar": "Kayrak Spa"
         },
         "panelText": {
-          "tr": "Görseller temsilidir; bu bir kurulum demosıdır.",
+          "tr": "Görseller temsilidir; bu bir kurulum demosudur.",
           "en": "Images are representative; this is a setup demo.",
           "ar": "الصور تمثيلية وهذا عرض تجريبي."
         },
@@ -2477,9 +2528,9 @@
         },
         "social": [],
         "formTitle": {
-          "tr": "Teklif formu",
-          "en": "Quote form",
-          "ar": "نموذج الطلب"
+          "tr": "Randevu formu",
+          "en": "Booking form",
+          "ar": "نموذج الحجز"
         },
         "nameLabel": {
           "tr": "Ad Soyad",
@@ -2510,25 +2561,25 @@
           {
             "id": "a",
             "name": {
-              "tr": "Yeni talep",
-              "en": "New request",
-              "ar": "طلب جديد"
+              "tr": "Masaj",
+              "en": "Massage",
+              "ar": "تدليك"
             }
           },
           {
             "id": "b",
             "name": {
-              "tr": "Ölçü ve keşif",
-              "en": "Measure and survey",
-              "ar": "قياس واستقصاء"
+              "tr": "Hamam",
+              "en": "Hammam",
+              "ar": "حمّام"
             }
           },
           {
             "id": "c",
             "name": {
-              "tr": "Teknik soru",
-              "en": "Technical question",
-              "ar": "سؤال فني"
+              "tr": "Yüz bakımı / Çift paketi",
+              "en": "Facial care / Couples package",
+              "ar": "عناية بالوجه / باقة الأزواج"
             }
           },
           {
@@ -2615,7 +2666,8 @@
           "tr": "Merhaba, web sitenizden yazıyorum.",
           "en": "Hello, I am writing from your website.",
           "ar": "مرحبًا، أكتب إليكم من موقعكم الإلكتروني."
-        }
+        },
+        "formAction": ""
       },
       "data": [],
       "veri": {
@@ -2753,9 +2805,9 @@
           "ar": "اتصل بنا"
         },
         "callText": {
-          "tr": "Hafta içi 09:00 – 18:00",
-          "en": "Weekdays 09:00 – 18:00",
-          "ar": "أيام الأسبوع 09:00 – 18:00"
+          "tr": "Her gün 10:00 – 21:00",
+          "en": "Every day 10:00 – 21:00",
+          "ar": "كل يوم 10:00 – 21:00"
         },
         "callBtn": {
           "tr": "Ara",
